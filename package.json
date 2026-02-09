@@ -1,0 +1,29 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "This project serve as a practice for [JavaScript Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), from the beginning up until [Webpack](https://www.theodinproject.com/lessons/javascript-webpack#knowledge-check).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moktavizen/restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/moktavizen/restaurant/issues"
+  },
+  "homepage": "https://github.com/moktavizen/restaurant#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.3",
+    "html-webpack-plugin": "^5.6.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
