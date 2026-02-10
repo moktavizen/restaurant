@@ -1,3 +1,57 @@
+:root {
+  --clr-gold: #c59d5f;
+  --clr-white: #ebebeb;
+  --page-max-width: 1280px;
+}
+
 body {
-  background-color: rebeccapurple;
+  height: 100svh;
+  font-family: sans-serif;
+  color: var(--clr-white);
+
+  background: url("./gemini-nasi-padang.png") center / cover;
+  backdrop-filter: brightness(70%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 32px 16px;
+  border-bottom: 2px solid var(--clr-gold);
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+nav > button {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav > button:hover {
+  color: var(--clr-gold);
+}
+
+nav > button.selected {
+  text-decoration: underline var(--clr-gold) 2px;
+  text-underline-offset: 4px;
+}
+
+#content {
+  flex: 1;
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 32px 16px;
+  border-top: 2px solid var(--clr-gold);
+}
+
+a:hover {
+  text-decoration: underline var(--clr-gold) 2px;
 }
