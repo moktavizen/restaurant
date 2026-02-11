@@ -17,19 +17,20 @@ body {
 }
 
 header {
-  padding: 32px 16px;
+  padding: 24px 16px;
   border-bottom: 2px solid var(--clr-gold);
 }
 
 nav {
   display: flex;
-  gap: 40px;
+  gap: 24px;
   justify-content: center;
 }
 
 nav > button {
   text-transform: uppercase;
   cursor: pointer;
+  padding: 8px;
 }
 
 nav > button:hover {
