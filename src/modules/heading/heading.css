@@ -1,6 +1,6 @@
 .greeting-txt {
   font-family: "Great Vibes", cursive;
-  font-size: 6rem;
+  font-size: 5.5rem;
   color: var(--clr-gold);
 }
 
@@ -9,7 +9,7 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1;
-  margin-top: -64px;
+  margin-top: -56px;
 }
 
 .divider {
