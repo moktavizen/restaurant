@@ -1,4 +1,4 @@
-import { createHomeComponent } from "../home/home.js";
+import { createHomeComponent } from "./home.js";
 
 function init() {
   const contentDiv = document.querySelector("#content");

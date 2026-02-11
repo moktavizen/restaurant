@@ -1,7 +1,7 @@
-import "./template/reset.css";
-import "./template/font.css";
-import "./template/template.css";
-import { init } from "./modules/init/init.js";
+import "./styles/reset.css";
+import "./styles/font.css";
+import "./styles/template.css";
+import { init } from "./modules/init.js";
 
 // TODO
 // Tab-switching logic

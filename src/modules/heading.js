@@ -1,4 +1,4 @@
-import "./heading.css";
+import "../styles/heading.css";
 
 function createHeading(txt = "Foo") {
   const headingDiv = document.createElement("div");

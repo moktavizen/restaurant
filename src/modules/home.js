@@ -9,8 +9,8 @@
 //   <button>See the menu</button>
 // </div>
 
-import "./home.css";
-import { createHeading } from "../heading/heading.js";
+import "../styles/home.css";
+import { createHeading } from "./heading.js";
 
 function createHomeComponent() {
   const homeDiv = document.createElement("div");
