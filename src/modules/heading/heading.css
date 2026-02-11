@@ -1,0 +1,20 @@
+.greeting-txt {
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  color: var(--clr-gold);
+}
+
+.heading-txt {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: -64px;
+}
+
+.divider {
+  border: 2px solid var(--clr-gold);
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 32px;
+}

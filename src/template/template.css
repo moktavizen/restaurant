@@ -1,12 +1,14 @@
 :root {
   --clr-gold: #c59d5f;
   --clr-white: #ebebeb;
+  --clr-black: #1e1e1e;
+  --clr-navy: #0c0d1b;
   --page-max-width: 1280px;
 }
 
 body {
   height: 100svh;
-  font-family: sans-serif;
+  font-family: "Figtree", sans-serif;
   color: var(--clr-white);
 
   background: url("./gemini-nasi-padang.png") center / cover;

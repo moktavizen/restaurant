@@ -1,0 +1,29 @@
+#content {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.home.component {
+  max-width: var(--page-max-width);
+  text-align: center;
+  padding-inline: 16px;
+}
+
+.slogan {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.menu-cta {
+  text-transform: uppercase;
+  color: var(--clr-black);
+  background-color: var(--clr-gold);
+  padding: 16px;
+}
+
+.menu-cta:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
