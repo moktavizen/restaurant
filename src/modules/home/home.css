@@ -1,14 +1,12 @@
 #content {
   display: flex;
-
-  justify-content: center;
-  align-items: center;
 }
 
 .home.component {
   max-width: var(--page-max-width);
   text-align: center;
   padding-inline: 16px;
+  margin: auto;
 }
 
 .slogan {
