@@ -5,7 +5,7 @@
 .home.component {
   max-width: var(--page-max-width);
   text-align: center;
-  padding-inline: 16px;
+  padding: 32px 16px;
   margin: auto;
 }
 
