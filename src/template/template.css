@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
   color: var(--clr-white);
 
-  background: url("../images/gemini-nasi-padang.png") center / cover;
+  background: url("./gemini-nasi-padang.png") center / cover;
   backdrop-filter: brightness(70%);
 
   display: flex;
