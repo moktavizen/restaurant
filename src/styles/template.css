@@ -38,9 +38,9 @@ nav > button:hover {
   color: var(--clr-gold);
 }
 
-nav > button.selected {
+nav > button[data-is-curr="true"] {
   text-decoration: underline var(--clr-gold) 2px;
-  text-underline-offset: 4px;
+  text-underline-offset: 6px;
 }
 
 #content {

@@ -1,11 +1,11 @@
+import { els, states } from "./globals.js";
 import { createHomeComponent } from "./home.js";
 
 function init() {
-  const contentDiv = document.querySelector("#content");
+  states.currTab = els.homeTab;
+  states.currTab.setAttribute("data-is-curr", "true");
 
-  const homeComponent = createHomeComponent();
-
-  contentDiv.appendChild(homeComponent);
+  els.contentDiv.appendChild(createHomeComponent());
 }
 
 export { init };
