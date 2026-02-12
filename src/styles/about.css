@@ -12,6 +12,10 @@
   padding: 32px 16px;
 }
 
-.about-paragraph {
+.about-container {
   max-width: 55ch;
+}
+
+.about-container > div {
+  margin-top: 16px;
 }
