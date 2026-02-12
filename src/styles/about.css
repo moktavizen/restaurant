@@ -1,5 +1,5 @@
 .about.component {
-  background-color: var(--clr-navy);
+  background-color: var(--clr-dark-red);
 
   display: flex;
   flex-direction: column;

@@ -1,8 +1,8 @@
 :root {
-  --clr-gold: #c59d5f;
+  --clr-gold: #b6a45e;
   --clr-white: #ebebeb;
   --clr-black: #1e1e1e;
-  --clr-navy: #253445;
+  --clr-dark-red: #442c28;
   --page-max-width: 1280px;
 }
 
@@ -47,7 +47,7 @@ nav > button.selected {
 #content {
   flex: 1;
   overflow: auto;
-  scrollbar-color: var(--clr-gold) var(--clr-navy);
+  scrollbar-color: var(--clr-gold) var(--clr-dark-red);
 }
 
 footer {
