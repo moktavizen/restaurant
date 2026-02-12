@@ -1,0 +1,17 @@
+.about.component {
+  background-color: var(--clr-navy);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+
+  min-height: 100%;
+
+  padding: 32px 16px;
+}
+
+.about-paragraph {
+  max-width: 55ch;
+}

@@ -1,11 +1,11 @@
-import { createMenuComponent } from "./menu.js";
+import { createAboutComponent } from "./about.js";
 
 function init() {
   const contentDiv = document.querySelector("#content");
 
-  const menuComponent = createMenuComponent();
+  const aboutComponent = createAboutComponent();
 
-  contentDiv.appendChild(menuComponent);
+  contentDiv.appendChild(aboutComponent);
 }
 
 export { init };
