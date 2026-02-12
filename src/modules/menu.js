@@ -1,5 +1,5 @@
 import "../styles/menu.css";
-import { createHeading } from "./heading.js";
+import { createHeadingComponent } from "./heading.js";
 
 const items = [
   {
@@ -64,7 +64,7 @@ function createMenuComponent() {
   const menuDiv = document.createElement("div");
   menuDiv.classList = "menu component";
 
-  const headingDiv = createHeading("Menu");
+  const headingDiv = createHeadingComponent("Menu");
 
   const itemContainerDiv = document.createElement("div");
   itemContainerDiv.classList = "items-container";

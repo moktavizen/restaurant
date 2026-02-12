@@ -1,6 +1,6 @@
 import "../styles/heading.css";
 
-function createHeading(txt = "Foo") {
+function createHeadingComponent(txt = "Foo") {
   const headingDiv = document.createElement("div");
   headingDiv.classList = "fancy-heading";
 
@@ -22,4 +22,4 @@ function createHeading(txt = "Foo") {
   return headingDiv;
 }
 
-export { createHeading };
+export { createHeadingComponent };

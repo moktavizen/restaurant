@@ -10,13 +10,13 @@
 // </div>
 
 import "../styles/home.css";
-import { createHeading } from "./heading.js";
+import { createHeadingComponent } from "./heading.js";
 
 function createHomeComponent() {
   const homeDiv = document.createElement("div");
   homeDiv.classList = "home component";
 
-  const headingDiv = createHeading("Ranah Minang");
+  const headingDiv = createHeadingComponent("Ranah Minang");
 
   const sloganDiv = document.createElement("div");
   sloganDiv.classList = "slogan";
