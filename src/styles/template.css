@@ -12,6 +12,7 @@ body {
 
   background: url("../assets/images/gemini-nasi-padang.webp") center / cover;
   backdrop-filter: brightness(70%);
+  background-color: var(--clr-dark-red);
 
   display: flex;
   flex-direction: column;
