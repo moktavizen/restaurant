@@ -35,10 +35,6 @@ nav > button {
   padding: 8px;
 }
 
-nav > button:hover {
-  color: var(--clr-gold);
-}
-
 nav > button[data-is-curr="true"] {
   border-bottom: 2px solid var(--clr-gold);
   padding-bottom: 6px;
