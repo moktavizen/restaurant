@@ -1,11 +1,11 @@
-import { createAboutComponent } from "./about.js";
+import { createHomeComponent } from "./home.js";
 
 function init() {
   const contentDiv = document.querySelector("#content");
 
-  const aboutComponent = createAboutComponent();
+  const homeComponent = createHomeComponent();
 
-  contentDiv.appendChild(aboutComponent);
+  contentDiv.appendChild(homeComponent);
 }
 
 export { init };

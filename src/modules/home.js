@@ -1,14 +1,3 @@
-// Export a function that creates a div element, adds the appropriate content and styles to that
-// element
-
-// <div>
-//   <div>Welcome</div>
-//   <h1>Ranah Minang</h1>
-//   <hr />
-//   <div>The best padang restaurant in town!</div>
-//   <button>See the menu</button>
-// </div>
-
 import "../styles/home.css";
 import { createHeadingComponent } from "./heading.js";
 
